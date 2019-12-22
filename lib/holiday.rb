@@ -47,6 +47,9 @@ end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   
+  def add_new_holiday_with_supplies(supplies_hash, season, new_holiday_name, supplies_list)
+  supplies_hash[season][new_holiday_name] = supplies_list
+
   # remember to return the updated hash
 
 end
